@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-06",
+  "source": "https://re.jrc.ec.europa.eu/api/v5_3/PVcalc?lat=45.76&lon=4.84&peakpower=3&angle=30&aspect=0&loss=14&outputformat=json",
+  "responseSha256": "2f9a4068bbfb0f3f9439a7ab4d6e8a3a27382cdccc3fc48ec9c35fa6c00c44b0",
+  "kind": "appel-reel-service-public",
+  "notes": "Test de connectivité et de contrat ; aucune validation de performance sémantique.",
+  "annualKwh": 3842.52
+}

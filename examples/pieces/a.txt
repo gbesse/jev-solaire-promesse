@@ -1,0 +1,5 @@
+DEMO-TOIT
+4000
+600000
+12
+Puissance 3 kWc, orientation sud, inclinaison 30 degrés et pertes de 14 %.

@@ -1,0 +1,3 @@
+DEMO-TOIT
+4000
+Installation de 3 kWc tournée vers le sud, pente 30 degrés, pertes système 14 %.

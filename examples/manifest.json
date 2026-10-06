@@ -1,0 +1,46 @@
+{
+  "input": {
+    "id": "jev-solaire-promesse-demo",
+    "tolerancePercent": 10,
+    "selfConsumptionShare": 0.6,
+    "retailMilliCents": 25000,
+    "saleMilliCents": 5000,
+    "maintenanceCents": 10000,
+    "quote": {
+      "docId": "a",
+      "siteId": "DEMO-TOIT",
+      "annualKwh": 4000,
+      "costCents": 600000,
+      "paybackYears": 12,
+      "assumptions": "Puissance 3 kWc, orientation sud, inclinaison 30 degrés et pertes de 14 %."
+    },
+    "simulation": {
+      "docId": "b",
+      "siteId": "DEMO-TOIT",
+      "annualKwh": 4000,
+      "assumptions": "Installation de 3 kWc tournée vers le sud, pente 30 degrés, pertes système 14 %."
+    }
+  },
+  "documents": [
+    {
+      "id": "a",
+      "file": "pieces/a.txt",
+      "source": {
+        "uri": "fixture:a",
+        "date": "2026-10-06",
+        "kind": "synthetique",
+        "licence": "CC0-1.0"
+      }
+    },
+    {
+      "id": "b",
+      "file": "pieces/b.txt",
+      "source": {
+        "uri": "fixture:b",
+        "date": "2026-10-06",
+        "kind": "synthetique",
+        "licence": "CC0-1.0"
+      }
+    }
+  ]
+}

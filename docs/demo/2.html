@@ -1,0 +1,44 @@
+<!doctype html><html lang="fr"><meta charset="utf-8"><title>Rapport jev-solaire-promesse-retour-magique</title><style>body{font:16px system-ui;max-width:1000px;margin:3rem auto;padding:0 1rem;background:#f7f9fc;color:#14293d}article{background:white;padding:1rem;margin:1rem 0;border:1px solid #ccd5df}pre{white-space:pre-wrap}small{color:#46596b}</style><h1>jev-solaire-promesse-retour-magique — ecart</h1><p>Mode : regles. Seuils de démarrage non calibrés sur des documents réels.</p><article><h2>Même site et installation : etaye</h2><p>Contrôle exact satisfait.</p><p>Vérifier les pièces et corriger les données.</p><details><summary>a — fixture:a</summary><pre>DEMO-TOIT
+4000
+600000
+2
+Puissance 3 kWc, orientation sud, inclinaison 30 degrés et pertes de 14 %.</pre><small>SHA-256 e249ea0e13664f95a17a892b1790ec2c3b06afe6151c2cb2907fbd9a1e79045e</small></details><details><summary>b — fixture:b</summary><pre>DEMO-TOIT
+4000
+Installation de 3 kWc tournée vers le sud, pente 30 degrés, pertes système 14 %.</pre><small>SHA-256 28c2ae2b77d8fe7513e6e88c5654dd90ac74543a4ec8463b06b74e5aa9008b41</small></details></article><article><h2>Production annoncée dans la tolérance de simulation : etaye</h2><p>Contrôle exact satisfait.</p><p>Vérifier puissance, inclinaison, orientation, pertes et ombrage.</p><details><summary>a — fixture:a</summary><pre>DEMO-TOIT
+4000
+600000
+2
+Puissance 3 kWc, orientation sud, inclinaison 30 degrés et pertes de 14 %.</pre><small>SHA-256 e249ea0e13664f95a17a892b1790ec2c3b06afe6151c2cb2907fbd9a1e79045e</small></details><details><summary>b — fixture:b</summary><pre>DEMO-TOIT
+4000
+Installation de 3 kWc tournée vers le sud, pente 30 degrés, pertes système 14 %.</pre><small>SHA-256 28c2ae2b77d8fe7513e6e88c5654dd90ac74543a4ec8463b06b74e5aa9008b41</small></details></article><article><h2>Retour annoncé compatible avec le calcul simple : ecart</h2><p>Contrôle exact non satisfait.</p><p>Vérifier les pièces et corriger les données.</p><details><summary>a — fixture:a</summary><pre>DEMO-TOIT
+4000
+600000
+2
+Puissance 3 kWc, orientation sud, inclinaison 30 degrés et pertes de 14 %.</pre><small>SHA-256 e249ea0e13664f95a17a892b1790ec2c3b06afe6151c2cb2907fbd9a1e79045e</small></details><details><summary>b — fixture:b</summary><pre>DEMO-TOIT
+4000
+Installation de 3 kWc tournée vers le sud, pente 30 degrés, pertes système 14 %.</pre><small>SHA-256 28c2ae2b77d8fe7513e6e88c5654dd90ac74543a4ec8463b06b74e5aa9008b41</small></details></article><article><h2>Hypothèses de production cohérentes : a_revoir</h2><p>Rapprochement sémantique à valider.</p><p>Comparer les passages et faire valider le rapprochement.</p><details><summary>Passages rapprochés</summary><h3>Passage gauche</h3><pre>Puissance 3 kWc, orientation sud, inclinaison 30 degrés et pertes de 14 %.</pre><h3>Passage droit</h3><pre>Installation de 3 kWc tournée vers le sud, pente 30 degrés, pertes système 14 %.</pre></details><details><summary>a — fixture:a</summary><pre>DEMO-TOIT
+4000
+600000
+2
+Puissance 3 kWc, orientation sud, inclinaison 30 degrés et pertes de 14 %.</pre><small>SHA-256 e249ea0e13664f95a17a892b1790ec2c3b06afe6151c2cb2907fbd9a1e79045e</small></details><details><summary>b — fixture:b</summary><pre>DEMO-TOIT
+4000
+Installation de 3 kWc tournée vers le sud, pente 30 degrés, pertes système 14 %.</pre><small>SHA-256 28c2ae2b77d8fe7513e6e88c5654dd90ac74543a4ec8463b06b74e5aa9008b41</small></details></article><h2>Sorties métier</h2><pre>{
+  &quot;productionEstimeeKwh&quot;: 4000,
+  &quot;gainAnnuelSimpleCentimes&quot;: 58000,
+  &quot;retourSimpleAnnees&quot;: 10.344827586206897,
+  &quot;scenarios&quot;: [
+    {
+      &quot;partAutoconsommee&quot;: 0.3,
+      &quot;gainAnnuelCentimes&quot;: 34000
+    },
+    {
+      &quot;partAutoconsommee&quot;: 0.6,
+      &quot;gainAnnuelCentimes&quot;: 58000
+    },
+    {
+      &quot;partAutoconsommee&quot;: 0.9,
+      &quot;gainAnnuelCentimes&quot;: 82000
+    }
+  ],
+  &quot;limiteMetier&quot;: &quot;PVGIS fournit une estimation, pas une garantie. Le retour simple ignore financement, fiscalité, dégradation et remplacement sauf coûts saisis explicitement.&quot;
+}</pre><p>Les champs structurés importés doivent être vérifiés contre les pièces originales. PVGIS fournit une estimation, pas une garantie. Le retour simple ignore financement, fiscalité, dégradation et remplacement sauf coûts saisis explicitement. Un résultat étayé ne vaut ni certification ni décision juridique ou administrative.</p></html>
